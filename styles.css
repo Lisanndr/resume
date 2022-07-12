@@ -78,8 +78,6 @@ a:visited {    color: grey;}
     color: DodgerBlue
 }
 
-.home {display: block;}
-
 .home img {margin-right: 10px;
     position: relative;
     top: 3px;}
@@ -96,11 +94,26 @@ a:visited {    color: grey;}
     top: 3px;
 }
 
-.phone a { padding: 5px;}
+.phone a {padding: 5px;}
 
 .bg-yellow h4 {
     margin-left: 10px;
     color: dodgerblue;
+}
+
+.languages h4 {
+    color: dodgerblue;
+    margin: 5px 0px 5px 0px;
+}
+
+.skills h4 {
+    color: dodgerblue;
+    margin: 5px 0px 5px 0px;
+}
+
+.character h4 {
+    color: dodgerblue;
+    margin: 5px 0px 5px 0px;
 }
 
 .bg-yellow {
@@ -120,8 +133,6 @@ a:visited {    color: grey;}
 	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
 }
 
-
-
 .social a:hover {
 	border-color: #888;
 	opacity: .8;
@@ -137,7 +148,9 @@ a:visited {    color: grey;}
 .github a {background: #191919;}
 
 .languages {
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .meter {
@@ -269,7 +282,6 @@ a:visited {    color: grey;}
 
 .table {
     width: 100%;
-
 }
 
 .table td {
